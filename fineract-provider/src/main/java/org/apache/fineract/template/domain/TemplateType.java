@@ -25,7 +25,10 @@ import org.codehaus.jackson.map.annotate.JsonSerialize;
 public enum TemplateType {
 
     @SerializedName("Document")
-    DOCUMENT(0, "Document"), @SerializedName("SMS")
+    DOCUMENT(0, "Document"),
+    @SerializedName("E-Mail")
+    EMAIL(1, "E-Mail"),
+    @SerializedName("SMS")
     SMS(2, "SMS");
 
     /**
