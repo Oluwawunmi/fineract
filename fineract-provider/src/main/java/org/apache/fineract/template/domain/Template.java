@@ -85,6 +85,9 @@ public class Template extends AbstractPersistableCustom {
             case 0:
                 type = TemplateType.DOCUMENT;
             break;
+            case 1:
+                type = TemplateType.EMAIL;
+            break;
             case 2:
                 type = TemplateType.SMS;
             break;
